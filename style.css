@@ -6,6 +6,9 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
   }
+  .text-light-gray{
+    color: #727272;
+  }
   .btn-primary{
     border-radius: 11px;
 background: #de6f14;
@@ -59,32 +62,11 @@ margin: 0 auto;
     font-weight: 700;
     color: rgb(42, 17, 17);
   }
-  .banner-description{
-    font-size: 1rem;
-    color: rgb(101, 19, 19);
-  }
+  
   .banner img{
     width: 100%;
   }
-  /* Responsive Media Queries */
-  /* mobile devices */
-  @media screen and (max-width:576px) {
-    header{
-        padding: 20px;
-    }
-    nav{
-        flex-direction: column;
-    }
-  }
-  /* medium devices */
-  @media screen and (min-width:57px) and (max-width:960px){
-    nav{
-        flex-direction: column;
-    }
-    header{
-        padding: 50px;
-    }
-  }
+  
   /* Main styles */
 main{
   max-width:  1440px;
@@ -116,9 +98,27 @@ margin-top: 50px;
   color: #FF900E;
   font-weight: 700;
 }
-.teams-description{
 
-}
+
+/* Responsive Media Queries */
+  /* mobile devices */
+  @media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+  }
+  /* medium devices */
+  @media screen and (min-width:57px) and (max-width:960px){
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
+  }
 
 
 
