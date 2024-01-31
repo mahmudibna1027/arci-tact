@@ -107,14 +107,37 @@ margin-bottom: 130px;
 gap: 145px;
 gap: 100px;
 }
+.features .section-title{
+  border-left: 15px solid  #b76201;
+  padding-left: 20px;
+}
 .feature-content .card {
-  border: 1px solid;
+  /* border: 1px solid; */
   border-radius: 8px;
 background: #FFF;
 
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 padding: 30px;
-margin-bottom:30px;
+margin-bottom:20px;
+}
+.ten-tears-batch{
+  border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+width: 342px;
+padding: 40px;
+}
+.ten-tears-batch h3{
+  color: #FFF;
+text-align: center;
+font-size: 4rem;
+font-weight: 700;
+}
+.ten-tears-batch p{
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 /* some fasts section */
