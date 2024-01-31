@@ -78,7 +78,7 @@ main{
 .teams-container{
 display: flex;
 align-items: center;
-/* margin-top: 50px; */
+margin-bottom: 130px;
 }
 .teams-img-container{
   display: grid;
@@ -100,6 +100,23 @@ align-items: center;
   color: #FF900E;
   font-weight: 700;
 }
+
+/* Features */
+.features{
+  display: flex;
+gap: 145px;
+gap: 100px;
+}
+.feature-content .card {
+  border: 1px solid;
+  border-radius: 8px;
+background: #FFF;
+
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+margin-bottom:30px;
+}
+
 /* some fasts section */
 .facts-card-container{
 
@@ -169,7 +186,8 @@ color: #727272;
     }
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container
+    .sponsors-img-container,
+    .features
     {
       flex-direction: column;
     }
